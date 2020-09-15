@@ -1,0 +1,328 @@
+1
+00:00:14,040 --> 00:00:14,520
+right.
+
+2
+00:00:14,530 --> 00:00:15,150
+Okay,
+
+3
+00:00:15,540 --> 00:00:16,170
+let's rub it out.
+
+4
+00:00:16,940 --> 00:00:21,170
+So keeping your friends under control Some of you may guess where this is already going,
+
+5
+00:00:21,170 --> 00:00:26,090
+but so imagine you have a class fare 
+
+6
+00:00:26,090 --> 00:00:26,680
+class badger,
+
+7
+00:00:26,680 --> 00:00:27,110
+of course.
+
+8
+00:00:27,110 --> 00:00:29,770
+Why not Onda pastor members,
+
+9
+00:00:30,340 --> 00:00:32,730
+The creator instance of this class Badger notice.
+
+10
+00:00:32,730 --> 00:00:33,330
+It's in this name.
+
+11
+00:00:33,330 --> 00:00:34,220
+Space animals.
+
+12
+00:00:34,930 --> 00:00:36,070
+Of course you can.
+
+13
+00:00:36,540 --> 00:00:39,870
+You can call this free function that operates on on Bajor,
+
+14
+00:00:40,520 --> 00:00:43,840
+just as it is because we have arguments,
+
+15
+00:00:43,840 --> 00:00:44,110
+spending.
+
+16
+00:00:44,110 --> 00:00:44,550
+Look up.
+
+17
+00:00:47,240 --> 00:00:48,770
+So that's the polices.
+
+18
+00:00:49,520 --> 00:00:51,280
+So I haven't looked at this for a little while.
+
+19
+00:00:52,240 --> 00:00:52,880
+Of course,
+
+20
+00:00:52,880 --> 00:00:57,810
+you can also qualify that free function with the name space that is in and now works as 
+
+21
+00:00:57,810 --> 00:00:58,040
+well.
+
+22
+00:00:58,050 --> 00:00:59,130
+Then we're not using,
+
+23
+00:01:01,440 --> 00:01:02,130
+but interestingly,
+
+24
+00:01:02,130 --> 00:01:06,750
+if you put that free function inside the class as a friend 
+
+25
+00:01:07,640 --> 00:01:08,900
+on also make it in line.
+
+26
+00:01:09,940 --> 00:01:14,940
+This is now no longer findable using idea because it's technically not 
+
+27
+00:01:14,940 --> 00:01:16,130
+in that enclosing name space,
+
+28
+00:01:17,240 --> 00:01:18,440
+which means the only way Sorry.
+
+29
+00:01:18,450 --> 00:01:20,140
+The only way to find it is with a D l.
+
+30
+00:01:20,210 --> 00:01:21,260
+Let's get that the wrong way around.
+
+31
+00:01:23,540 --> 00:01:26,000
+So if you try to call it qualified of name space,
+
+32
+00:01:26,000 --> 00:01:26,570
+that's an error.
+
+33
+00:01:28,740 --> 00:01:31,050
+But if you call it unqualified ideal picks it up,
+
+34
+00:01:34,640 --> 00:01:36,160
+so I can't remember.
+
+35
+00:01:36,160 --> 00:01:37,070
+Why put this light in.
+
+36
+00:01:37,740 --> 00:01:39,170
+I know this is a bad idea,
+
+37
+00:01:39,540 --> 00:01:40,470
+but anyway,
+
+38
+00:01:41,840 --> 00:01:43,970
+what's the what's the benefit of this?
+
+39
+00:01:45,940 --> 00:01:47,350
+Is it just a curiosity?
+
+40
+00:01:48,540 --> 00:01:48,770
+Well,
+
+41
+00:01:48,770 --> 00:01:50,550
+imagine we're talking about operators.
+
+42
+00:01:51,140 --> 00:01:52,970
+The Austrian operator overload here.
+
+43
+00:01:54,540 --> 00:01:59,250
+Now we introduce another class that Z not in that name space.
+
+44
+00:02:01,040 --> 00:02:02,960
+If we introduce an era,
+
+45
+00:02:03,940 --> 00:02:05,650
+this is a sort of error message we're going to see.
+
+46
+00:02:06,300 --> 00:02:07,690
+I'm sure you're familiar with this.
+
+47
+00:02:07,850 --> 00:02:08,190
+In fact,
+
+48
+00:02:08,190 --> 00:02:10,970
+this is just an extract and hopefully you can read it all.
+
+49
+00:02:12,240 --> 00:02:13,900
+But in case you can't zoom in,
+
+50
+00:02:13,980 --> 00:02:18,870
+there's a bit that actually reflects the area that we introduced the rest of it's just 
+
+51
+00:02:18,870 --> 00:02:23,460
+noise coming from all the additional overloads that we're finding because of a d.
+
+52
+00:02:23,460 --> 00:02:23,670
+R.
+
+53
+00:02:24,640 --> 00:02:27,970
+So if we can hide all of these overloads from medial,
+
+54
+00:02:28,540 --> 00:02:31,450
+then we can drastically reduce the number of areas that we got,
+
+55
+00:02:35,840 --> 00:02:39,460
+and that sort of reflects the what we cut out.
+
+56
+00:02:39,470 --> 00:02:44,150
+But I'll zoom straight 
+
+57
+00:02:44,150 --> 00:02:45,010
+onto this.
+
+58
+00:02:45,220 --> 00:02:50,190
+This proposal from Watery Brown and others recommendations 
+
+59
+00:02:50,190 --> 00:02:54,260
+for specifying hidden friends So this was actually raised is 
+
+60
+00:02:54,260 --> 00:02:59,230
+a standard proposal for the benefit off other standards proposals so that they 
+
+61
+00:02:59,230 --> 00:03:03,470
+can consider using this technique to reduce the number of overloads that we 
+
+62
+00:03:04,240 --> 00:03:05,540
+we actually exposed to,
+
+63
+00:03:05,550 --> 00:03:08,470
+not just error messages but also compel times as well.
+
+64
+00:03:08,840 --> 00:03:12,330
+Having to consider all those additional overloads has a bit of a drag.
+
+65
+00:03:12,330 --> 00:03:14,910
+So I think really good they were going in the direction.
+
+66
+00:03:14,920 --> 00:03:19,700
+Whether you actually use this technique yourself is up to you because there is a 
+
+67
+00:03:19,700 --> 00:03:24,630
+trade off in that you do have to make them in line Friends of the 
+
+68
+00:03:24,630 --> 00:03:25,150
+class,
+
+69
+00:03:25,440 --> 00:03:27,000
+which may not have bean what you wanted to do.
+
+70
+00:03:27,000 --> 00:03:27,560
+Otherwise,
+
+71
+00:03:28,140 --> 00:03:29,550
+there is another proposal,
+
+72
+00:03:30,840 --> 00:03:32,250
+the Independence of Declaration,
+
+73
+00:03:33,240 --> 00:03:38,140
+which proposes a new key word to actually allow you to do the same thing without 
+
+74
+00:03:38,140 --> 00:03:40,000
+changing how you design the code.
+
+75
+00:03:40,010 --> 00:03:42,550
+But do note the date of this proposal.
+
+76
+00:03:43,140 --> 00:03:43,350
+Mhm,
+
+77
+00:03:43,740 --> 00:03:45,960
+April the first thing this year.
+
+78
+00:03:47,040 --> 00:03:48,820
+I'm not saying that means anything,
+
+79
+00:03:48,820 --> 00:03:50,770
+but if you wanna go and have a look at that,
+
+80
+00:03:50,960 --> 00:03:52,010
+they get hobbling.
+
+81
+00:03:52,020 --> 00:03:53,450
+So that was it.
+
+82
+00:03:53,450 --> 00:03:56,560
+Thank you.
+
