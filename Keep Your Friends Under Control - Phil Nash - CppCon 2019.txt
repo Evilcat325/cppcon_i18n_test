@@ -1,82 +1,60 @@
-right.
-Okay,
-let's rub it out.
-So keeping your friends under control Some of you may guess where this is already going,
-but so imagine you have a class fare 
-class badger,
-of course.
-Why not Onda pastor members,
-The creator instance of this class Badger notice.
-It's in this name.
-Space animals.
-Of course you can.
-You can call this free function that operates on on Bajor,
-just as it is because we have arguments,
-spending.
-Look up.
-So that's the polices.
+Right.
+Okay, let's rub it out.
+So keeping your friends under control.
+Some of you may guess where this is already going,
+but so imagine you have a class there class Badger.
+And it has some members,
+You creat an instance of this class Badger.
+Notice in this namespace Animals.
+Of course, you can call this free function that operates on Badger just as it is.
+Because we have ADL argument depended lookup.
+So there is the pieces.
 So I haven't looked at this for a little while.
-Of course,
-you can also qualify that free function with the name space that is in and now works as 
-well.
-Then we're not using,
-but interestingly,
-if you put that free function inside the class as a friend 
-on also make it in line.
-This is now no longer findable using idea because it's technically not 
-in that enclosing name space,
-which means the only way Sorry.
-The only way to find it is with a D l.
+Of course, you can also qualify that free function with the namespace that is in
+and now works as well. And we are not using ADL.
+But interestingly, if you put that free function inside the class as a friend
+on also make it inline.
+This is now no longer findable using ADL because it's technically not
+in that enclosing namespace, which means the only way.
+Sorry, the only way to find it is with ADL.
 Let's get that the wrong way around.
-So if you try to call it qualified of name space,
+So if you try to call it qualified with a namespace,
 that's an error.
-But if you call it unqualified ideal picks it up,
-so I can't remember.
-Why put this light in.
-I know this is a bad idea,
-but anyway,
-what's the what's the benefit of this?
+But if you call it unqualified ADL picks it up,
+So I can't remember why I put this slide in.
+I know this is a bad idea, but anyway.
+What's the benefit of this?
 Is it just a curiosity?
-Well,
-imagine we're talking about operators.
+Well, imagine we're talking about operators.
 The Austrian operator overload here.
-Now we introduce another class that Z not in that name space.
-If we introduce an era,
-this is a sort of error message we're going to see.
+Now we introduce another class that's not in that namespace.
+If we introduce an error, this is a sort of error message we're going to see.
 I'm sure you're familiar with this.
-In fact,
-this is just an extract and hopefully you can read it all.
-But in case you can't zoom in,
-there's a bit that actually reflects the area that we introduced the rest of it's just 
-noise coming from all the additional overloads that we're finding because of a d.
-R.
-So if we can hide all of these overloads from medial,
-then we can drastically reduce the number of areas that we got,
-and that sort of reflects the what we cut out.
-But I'll zoom straight 
-onto this.
-This proposal from Watery Brown and others recommendations 
-for specifying hidden friends So this was actually raised is 
-a standard proposal for the benefit off other standards proposals so that they 
-can consider using this technique to reduce the number of overloads that we 
+In fact, this is just an extract and hopefully you can read it all.
+But in case you can't, just zoom in,
+there's a bit that actually reflects the error that we introduced.
+The rest of it's just noise coming from all the additional overloads that we're finding because of ADL.
+So if we can hide all of these overloads from ADL,
+then we can drastically reduce the number of errors that we got,
+That sort of reflects the what we cut out.
+I'll zoom straight onto this proposal from Watery Brown and others.
+Recommendations for specifying hidden friends.
+So this was actually raised as a standard proposal for the benefit off other standards proposals
+so that they can consider using this technique to reduce the number of overloads that we
 we actually exposed to,
-not just error messages but also compel times as well.
+not just error messages but also compile times as well.
 Having to consider all those additional overloads has a bit of a drag.
 So I think really good they were going in the direction.
-Whether you actually use this technique yourself is up to you because there is a 
-trade off in that you do have to make them in line Friends of the 
-class,
-which may not have bean what you wanted to do.
-Otherwise,
-there is another proposal,
-the Independence of Declaration,
-which proposes a new key word to actually allow you to do the same thing without 
+Whether you actually use this technique yourself is up to you
+because there is a trade off in that you do have to make them in line friends of the class,
+which may not have bean what you wanted to do otherwise.
+There is another proposal, the Independence of Declaration,
+which proposes a new key word to actually allow you to do the same thing without
 changing how you design the code.
 But do note the date of this proposal.
-Mhm,
-April the first thing this year.
+April 1st this year.
 I'm not saying that means anything,
 but if you wanna go and have a look at that,
-they get hobbling.
+there is the Github link.
 So that was it.
 Thank you.
